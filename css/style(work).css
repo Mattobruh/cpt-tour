@@ -1,0 +1,23 @@
+.droplet {
+    background: tomato;
+    border-radius: 2% 50%;
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease-in-out;
+    margin: 100px;
+}
+.droplet: hover{
+    transform: rotate(1080deg);
+}
+.droplet2 {
+    background: blue;
+    border-radius: 2% 50%;
+    height: 100px;
+    width: 100px;
+    transform-origin: left top;
+    transition: transform 1s ease-in-out;
+    margin: 100px;
+}
+.droplet2: hover {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,181 @@
+.container {
+    width: 1366px;
+    display: block;
+    margin: 0 auto;
+}
+.topbar {
+    background-color: #fdf0ff;
+    color: #9b9b9b;
+    padding: 15px 0px;
+}
+button {
+    border: none;
+    background-color: #128e8e;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+button:hover {
+    background-color: #555555;
+    color: #eeeeee
+}
+button:focus {
+    outline: none;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #333333;
+    background: none;
+    padding:10px 5px;
+}
+.white {
+    color: #ffffff;
+}
+
+.white::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.float-right {
+    float: right;
+}
+.clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+    float: none;
+}
+section {
+    width: 100%;
+}
+.banner {
+    display: block;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: -33px;
+    left: 66px;
+    box-shadow: 0 0 45px #333333;
+}
+.logo img {
+    display: block;
+}
+.banner-image {
+    display: block;
+    width: 100%;
+    background-image: url("../images/oreo-cookie-cake.png");
+    background-size: cover;
+    height: 350px;
+}
+nav ul li {
+    display: inline;
+    margin: 0px 50px;
+}
+.navbar {
+    background-color: #fdf0ff;
+    padding: 20px 0px;
+    text-align: center;
+}
+.newsletter h2 {
+    font-size:42px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+.newsletter {
+    display: block;
+    padding: 0px 0px 50px;
+}
+.submit-field {
+    width: 100px;
+    background-color: #128e8e;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+}
+.submit-field:hover {
+    background-color: #555555;
+    color: #eeeeee;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+}
+.email-field {
+    padding: 10px 20px 10px 20px;
+    border-width: thin;
+    border: 1px solid #555555;
+    width: 600px;
+}
+.newsletter form {
+    display: inline;
+    width: 650px;
+    padding: 30px 300px 30px 300px;
+}
+.featured-nav .controls {
+    display: inline;
+    margin-left: 770px;
+}
+.featured-nav h2 {
+    display: inline-block;
+    font-size: 45px;
+    padding: 5px 0px;
+}
+.controls {
+    display: block;
+}
+.search-bar {
+    display: inline-block;
+}
+.sort-bar {
+    padding-left: 5px;
+    display: inline-block;
+}
+.grid-list {
+    display: inline-block;
+}
+.featured-products {
+    display: inline-block;
+    padding: 25px 20px;
+    background-color: #fdf0ff;
+}
+.featured-image {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    padding: 20px 0px 20px 20px;
+}
+.view-products {
+    display: inline-block;
+    margin-left: 530px;
+    padding: 20px 0px;
+}
+.reviews {
+    margin-top: 20px;
+    background-color: #fdf0ff;
+}
+.product-image {
+    display: inline-block;
+    padding: 80px 0px 0px 40px;
+}
+.paragraph {
+    display: inline-block;
+    width: 400px;
+    padding: 0px 0px 0px 20px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

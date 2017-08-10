@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* grid layout
+-----------------------*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+/* generic section
+-----------------------*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+nav {
+    display: block;
+    background-color: #5C9EA5;
+    padding: 20px;
+}
+
+.navbar {
+    width: 1366px;
+}
+
+nav ul {
+    float: right;
+    padding: 40px 0 0 0;
+    margin: 0;
+    margin-right: 300px;
+    list-style: none;
+    position: relative;
+  }
+
+.top-search {
+    float:  right;
+    padding: 40px 0 0 0;
+    margin: 0;
+    margin-right: 0px;
+    position: relative;
+}
+
+.fa {
+    color: #f2f2f2;
+    padding: 0px 10px 0px 0px;
+}
+
+input {
+    border: none;
+    padding: 5px 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 50px;
+    font-size: 23px;
+    color: #F2F2F2;
+}
+
+.container {
+    width: 1366px;
+    padding: 20px 0px;
+}
+
+.pack {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.pack: hover {
+    opacity: 50%;
+}
+
+.packages-home {
+    padding: 0px 0px 50px 250px;
+    width: 100%;
+    margin: auto 0;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 20px 0px;
+    color: #6088A5;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.description-home img {
+    display: block;
+}
+
+.description {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.description-home p {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.description-home button {
+    margin-left: 45%;
+}
+
+button {
+    border: none;
+    background-color: #128e8e;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+footer {
+    background-color: #5C9EA5;
+    padding: 100px 0px;
+    margin: auto 0;
+}
+
+.foot {
+    width: 1366px;
+}
+
+.sign-up {
+    display: block;
+    float: right;
+    position: relative;
+    margin: auto 0;
+}
+
+.foot-p {
+    display: block;
+    color: #f2f2f2;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration-line: none;
+    color: #f2f2f2;
+}
+
+a:hover {
+    color: #10baba;
+}
+
+.newsletter input {
+    padding: 10px 40px;
+    background-color: #f2f2f2;
+}
+
+.newsletter form {
+    padding: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
